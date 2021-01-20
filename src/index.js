@@ -13,7 +13,7 @@ console.log(jsonObject)
 let output = []
 handleObject(jsonObject, output, '')
 
-console.log(output)
+console.log(JSON.stringify(output, null, 2))
 
 
 function handleObject(input, output, path) {
