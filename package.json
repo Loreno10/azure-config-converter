@@ -1,8 +1,9 @@
 {
   "name": "azure-config-converter",
+  "type": "module",
   "version": "1.0.0",
   "description": "A tool that converts configuration files between .NET's appsettings.json style and Azure Cloud's Web App style (in both directions)",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
